@@ -1,0 +1,68 @@
+body {
+	background-color: #D2691E;
+}
+
+.inheritP{
+	margin-left: inherit;
+	display: inherit;
+}
+
+#cleFa {
+	margin-right: 15%;
+	margin-top:6%;
+	float:right;
+}
+
+#cleSol {
+	float:left;
+	margin-top:4%;
+	padding-left: 5%;
+}
+
+
+
+#introtext0 {
+	position: absolute;
+	width:87%;
+	font-family: 'Bad Script', cursive; 
+	color: #FF3300;
+	margin-top:3%;
+}
+
+#introtext1 {
+	margin-top: 8%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+#introtext2 {
+	margin-top: 2%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+#introtitre {
+	margin-top: 4%;
+	margin-left: 35%;
+	font-weight: bold;
+	font-size: 40px;
+	color: #660066;
+}
+
+#introvideo {
+	margin-left: 13%;
+	margin-top: 22%;
+	margin-bottom: 4%;
+}
+
+#pdfAcceuil {
+	margin-left: 30%;
+	margin-top: 10%;
+}
+
+#pdfTextDDL {
+	margin-top: 40%;
+	font-size: 25px;
+}

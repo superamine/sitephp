@@ -1,0 +1,101 @@
+<!Doctype html>
+
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>S'inscrire</title>
+	<script type="text/javascript" src="JS.js"></script>
+	<link rel="stylesheet" type="text/css" href="css\Inscription.css"/>
+	<link rel="stylesheet" type="text/css" href="css\Structure.css"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bad+Script" />
+	
+</head>
+
+<body onload="disab()">
+
+	<div id="header">
+		
+		<p id="titreSite"> Piano-Times </p>
+		
+	</div>
+	
+	<div id="nav"> 
+	
+		<p class="align2"> Recherche  </p>
+		
+		<form action="https://google.com/search" method="get" target="_blank" class="inheritInput">
+			<input type="text" name="q" placeholder="Recherche Google"/>
+		</form>
+	
+		<p class="align"> Rejoins-nous sur:  </p>
+		
+		<img src="img\fb.png" width=50 height=50 usemap="#facebook">
+		<map name="facebook">
+		<area shape="rect" target="_blank" href="https://www.facebook.com/Piano-Times-1958187257756487/" coords=0,50,50,0>
+		
+		<img src="img\yt.png" width=55 height=55 usemap="#youtube">
+		<map name="youtube">
+		<area shape="rect" target="_blank" href="https://www.youtube.com/user/MisterPandoras" coords=0,50,50,0>
+		
+		<img src="img\tw.png" width=55 height=55 usemap="#twitter">
+		<map name="twitter">
+		<area shape="rect" target="_blank" href="https://twitter.com/piano_times" coords=0,50,50,0>
+		
+		<img src="img\insta.png" width=50 height=50 usemap="#instagram" id="img5">
+		<map name="instagram">
+		<area shape="rect" target="_blank" href="https://www.instagram.com/pianotiimes" coords=0,50,50,0>
+		
+	</div>
+	
+	
+	<div id="main">
+	
+		<a id="Accueil"  href="Accueil.html"> Accueil </a>
+		<a id="tuto" href="Tutoriel.html"> Tutoriel </a>
+		<a id="partitions" href="Partitions.html"> Partitions </a>
+		<a id="inscription" href="Inscription.html"> S'inscrire </a> 
+		
+		<form class="bordure1" id="formulaire" method="get" >
+		
+			
+	
+			<label> <span class="titreform"> S'inscrire </span> </label> <br><br>
+			
+			<label> Civilité : </label>
+			<p> M. </p>
+			<input type="radio" name="rad" id="rad1" checked/>
+			<p> Mme </p>
+			<input type="radio" name="rad" id="rad2"/> <br><br>
+			
+			<label> Pseudo : </label>
+			<input type="text" class="inputArea" placeholder="3 à 30 caractères" id="pseudo" onblur="enab()" onfocus="color(this)" required autofocus> <br><br>
+			
+			<label> Votre email : </label>
+			<input type="email" class="inputArea" name="email" placeholder="xxxx@xxxx.xx" id="mail" onblur="enab()" onfocus="color(this)" required> <br><br>
+			
+			<label for="daten">	Date de naissance : </label>
+			<input type="date" class="inputArea" placeholder="Date de naissance" id="daten" onblur="enab()"required> <br><br>
+			
+			<label>	Mot de passe : </label>
+			<input type="password" class="inputArea" placeholder="Mot de passe" id="passwordA" onblur="enab()" onfocus="color(this)" required> <br><br>
+			
+			<label>	Confirmation du mot de passe : </label>
+			<input type="password" class="inputArea" placeholder="Mot de passe" id="passwordB" onblur="enab()" onfocus="color(this)" required> <br><br>
+			
+			<input type="submit" class="inputArea" value="Valider" id="valider" onkeypress="keycode(event)">
+			<input type="reset" class="inputArea" value="Réinitialiser" id="reset">
+		
+		</form>
+
+
+	</div>
+	
+	<div id="footer">  
+	
+	<p class="inheritP" id="footerText"> © Piano-Times - Réalisation par Killyan Faucon - 2018 </p>
+	
+	</div>
+	
+</body>
+
+</html>

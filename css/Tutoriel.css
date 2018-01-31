@@ -1,0 +1,80 @@
+html, body {
+	background-color: #D2691E;
+}
+iframe {
+	margin-left: 40%;
+	margin-top:-6%;
+	position:absolute;
+}
+
+.video {
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: underline;
+	text-decoration-color: #CC0000;
+	font-size: 25px;
+	font-family: 'Bad Script', cursive;
+	font-weight: bold;
+	margin-top: 3%;
+	margin-left: 3%;
+}
+
+.video:hover {
+	color: #CFCFCF;
+}
+
+#bouton {
+	float: right;
+	width: 200px;
+	margin-top:10%;
+	margin-right: 60%;
+	border:solid 2px #D2691E;
+}
+
+#boutonTuto {
+	height: 65px;
+	width: 65px;
+	border-radius: 200px;
+	margin-left: 35%;
+	background-image:url("play.png");
+	background-repeat: no-repeat;
+	background-size: 55px 55px;
+	background-position: center;
+}
+
+
+
+
+#NB {
+	font-size: 11px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;	
+}
+
+#premier {
+	margin-top: 4%;
+}
+
+#titreBouton {
+	text-align: center;
+	text-decoration: underline;
+	font-style: italic;
+	
+}
+
+#vid2{
+	margin-top:-13.5%;
+}
+	
+#vid3{
+	margin-top:-21%;
+}
+
+#vid4{
+	margin-top:-28.5%;
+}
+
+#vid5{
+	margin-top:-36%;
+}

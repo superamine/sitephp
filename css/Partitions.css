@@ -1,0 +1,55 @@
+span {
+	display: table;
+	margin: 5%;
+	color: #0000FF;
+	text-decoration:underline;
+	font-size: 25px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.inheritA {
+	display: inherit;
+	margin-left:0;
+	font-family: inherit;
+	color: inherit;
+	font-size: inherit;
+}
+
+.pdf {
+	float: left;
+	margin-left: 2%;
+}
+
+.marginDDL {
+	padding-right: 15%;
+	margin-top: -7%;
+	float:right;
+}
+
+.marginDDL:hover {
+	color: #FF0000;
+	cursor: pointer;
+}
+
+.zoom:hover {
+	color: #FF0000;
+	cursor: pointer;
+	font-size: 32px;
+	transition: font-size 1s;
+}
+
+#footer {
+	margin-top: -4.3%;
+}
+
+#footerText {
+	margin-top:0.3%;
+}
+
+#part {
+	margin-left: 2%;
+}
+
+
+
+

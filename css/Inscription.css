@@ -1,0 +1,58 @@
+body {
+	background-color: #D2691E;
+}
+
+form {
+	margin-left: 15%;
+	margin-top: 5%;
+	padding-bottom: 3%;
+	border-style: solid;
+	border-width: 2px;
+	padding-left: 20%;
+}
+
+input[type="radio"] {
+	margin-right:5%;
+}
+
+label {
+  width: 275px; 
+  display: inline-block;
+  margin: 10px;
+  margin-left:-5%;
+  font-size:20px;
+}
+
+p { 
+	display: inline-block;
+	margin-left: 3%;
+}
+
+p[class="align"], p[class="align2"] {
+	margin-left: inherit;
+	display: inherit;
+}
+
+span {
+	width: 200px;
+	font-weight : bold;
+	font-size : 40px;
+}
+
+.bordure1 {
+	border: solid 2px;
+	width: 50%;
+	height: 65%;
+	padding-top: 1%;
+	background-color: #FCC095;
+}
+
+.titreform {
+	margin-left:50%;
+}
+
+#valider, #reset {
+	margin-left: 13%;
+	margin-right: -10%;
+	width:100px;
+}
